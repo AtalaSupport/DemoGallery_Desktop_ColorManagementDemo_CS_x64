@@ -20,8 +20,9 @@ We recommend the following to ensure you clone with the required submodule
 
 Example: git for windows
 ```bash
-git clone https://github.com/AtalaSupport/DemoGallery_Desktop_ColorManagementDemo_CS_x64.git ColorManagementDemo
+git clone https://github.com/AtalaSupport/DemoGallery_Desktop_ColorManagementDemo_CS_x64.git ColorManagementDemo --recursive
 cd ColorManagementDemo
 git submodule init
+git submodule update
 git pull
 ```
